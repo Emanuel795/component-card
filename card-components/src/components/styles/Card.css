@@ -1,0 +1,98 @@
+*{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --green-ligth: rgba(36, 151, 86, 0.2);
+    --green: #219653;
+    --blue-ligth: rgba(47, 128, 237, 0.2);
+    --blue: #2F80ED;
+    --purple-ligth: rgba(155, 81, 224, 0.2);
+    --purple: #9B51E0;
+}
+.card{
+    margin: 12px;
+    width: 348px;
+    border-radius: 8px;
+    background-color: #fffffff6;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 308px;
+}
+
+.card-header-cargo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 14px;
+    margin: 0;
+    border-radius: 18px;
+    font-weight: 800;
+    font-size: 10px;
+}
+
+.card-message
+{
+    margin: 12px 0 12px 0;
+    font-weight: 700;
+    font-size: 13px;
+    
+}
+.card-footer{
+    width: 308px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.op{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 600;
+}
+.stattx{
+    margin: 0 0 0 8px;
+}
+.calendar{
+    margin: 0 12px 0 0 ;
+}
+.coments{
+    margin: 0 12px 0 12px;
+}
+.share{
+    margin: 0 0 0 12px;
+}
+.green{
+    background-color: var(--green-ligth);
+    color: var(--green);
+}
+.blue{
+    background-color: var(--blue-ligth);
+    color: var(--blue);
+}
+.purple{
+    background-color: var(--purple-ligth);
+    color: var(--purple);
+}
