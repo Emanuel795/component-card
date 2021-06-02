@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './components/Card'
 import './global.css'
 import getContentCard from './assets/getContentCard'
+import Profile from './components/Profile'
 
 export default function App() {
   const data=getContentCard();
@@ -13,6 +14,8 @@ export default function App() {
           return <Card data={card}/>
         })
       }
+      <Profile/>
+
   </div>
   );
 }
